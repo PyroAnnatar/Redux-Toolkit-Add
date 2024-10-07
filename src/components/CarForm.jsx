@@ -49,6 +49,7 @@ function CarForm() {
               type="number"
               value={value}
               onChange={(e) => setValue(e.target.value)}
+              min={0}
             />
           </div>
         </div>
